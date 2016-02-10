@@ -1,0 +1,8 @@
+main: your.package.MainClass
+name: YourPluginsName
+version: 1.0
+description: Here you can add a description for your plugin
+
+commands:
+    yourcommand:
+        description: Description for your command
