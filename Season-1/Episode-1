@@ -1,0 +1,29 @@
+package me.Leblanct;
+
+import org.bukkit.ChatColor;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
+import org.bukkit.plugin.java.JavaPlugin;
+
+public class Youtube extends JavaPlugin
+{
+
+	public void onEnable()
+	{
+		
+	}
+	
+	public void onDisable()
+	{
+		
+	}
+	
+	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args)
+	{
+		if(commandLabel.equalsIgnoreCase("hello"))
+		{
+			sender.sendMessage(ChatColor.DARK_AQUA + "Hello there, " + sender.getName());
+		}
+		return false;
+	}
+}
